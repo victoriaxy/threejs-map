@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- <first-three></first-three> -->
+  <!-- <threejs-line></threejs-line> -->
+  <threejs-text></threejs-text>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+// import HelloWorld from './components/HelloWorld.vue'
+// import firstThree from './components/threejs-box.vue';
+// import threejsLine from './components/threejs-line.vue';
+import threejsText from './components/threejs-text.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
 <style>
@@ -22,5 +21,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.threejs-example {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 </style>
